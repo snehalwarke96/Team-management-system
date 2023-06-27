@@ -29,8 +29,8 @@ else{
     myteam=[];
     console.log(90);
 }
-
-Api_call("GET","https://teknopointstaging.com/api/mock/users.json").then(function(resolve){
+// https://teknopointstaging.com/api/mock/users.json
+Api_call("GET","https://mocki.io/v1/0a52aa38-1756-4aeb-b072-41f378db44cd").then(function(resolve){
     resolve=JSON.parse(resolve);
     api_data=resolve.items;
     // console.log(api_data);
